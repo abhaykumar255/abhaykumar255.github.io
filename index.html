@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Kumar | Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            margin-bottom: 0;
+        }
+
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #cce7ff;
+        }
+
+        section {
+            margin: 40px auto;
+            max-width: 1100px;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .project img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .project-content {
+            max-width: 600px;
+        }
+
+        .project-content h3 {
+            margin-bottom: 15px;
+        }
+
+        .project-content p {
+            margin-bottom: 10px;
+        }
+
+        .project-content ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #555;
+            padding: 20px 0;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+            .project {
+                flex-direction: column;
+            }
+
+            .project img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Abhay Kumar</h1>
+    <p>Native Android & Cross-Platform App Developer | Kotlin | React Native </p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hi! I'm Abhay Kumar, a dedicated and passionate mobile app developer specializing in Native Android and Cross-Platform app development. 
+        I have over a year of professional experience building high-quality mobile applications that offer seamless user experiences. 
+        I thrive on solving complex technical challenges and constantly seek to innovate in the mobile development space. 
+        My core expertise lies in using Kotlin for Native Android development and React Native for cross-platform applications. 
+        At Tekion India Pvt. Ltd., I have successfully led the development of various Android and cross-platform applications, 
+        ensuring performance optimization and high user engagement.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <!-- <img src="https://via.placeholder.com/400" alt="Digital Signage Project Image"> -->
+        <div class="project-content">
+            <h3>Digital Signage Platform (Android)</h3>
+            <p>
+                An IoT-driven Android TV application designed for the automotive industry to display personalized content in dealership environments.
+                I contributed to this project by enhancing the UI, fixing critical bugs, and developing new features that improved overall performance and user experience.
+            </p>
+            <ul>
+                <li>Improved the performance and user interaction of the app through optimization techniques.</li>
+                <li>Worked closely with an Agile team to ensure timely feature releases.</li>
+                <li>Upgraded the application to deliver targeted marketing content, boosting customer engagement in automotive showrooms.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="project">
+        <!-- <img src="https://via.placeholder.com/400" alt="Self-Checkout Project Image"> -->
+        <div class="project-content">
+            <h3>Self-Checkout Kiosk Application (Android)</h3>
+            <p>
+                Led the development of an Android-based self-checkout kiosk system designed for automotive service centers.
+                This system allowed customers to schedule appointments, check in, and receive notifications seamlessly, improving service efficiency by 30%.
+            </p>
+            <ul>
+                <li>Designed and developed the entire application from scratch, including the user interface and back-end logic.</li>
+                <li>Optimized the app for touch-screen interactions, ensuring a smooth customer experience.</li>
+                <li>Successfully reduced manual intervention in appointment scheduling and check-ins, resulting in faster service turnaround.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="project">
+        <!-- <img src="images/iotMobile.png" alt="Cross-Platform Project Image"> -->
+        <div class="project-content">
+            <h3>Cross-Platform IoT Mobile Application (React Native)</h3>
+            <p>
+                Spearheaded the development of a cross-platform mobile app that integrates with IoT devices for remote monitoring and control. 
+                Built using React Native, the app ensures seamless functionality across both Android and iOS platforms while synchronizing real-time data from IoT devices.
+            </p>
+            <ul>
+                <li>Architected the mobile app with a focus on scalability and real-time data synchronization.</li>
+                <li>Integrated IoT functionality for remote device control, enhancing automation capabilities.</li>
+                <li>Ensured the app performed efficiently across multiple devices, reducing latency and improving user experience.</li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <p>
+        <strong>Programming Languages:</strong> Kotlin, Java, JavaScript <br>
+        <strong>Mobile Frameworks:</strong> Android SDK, Jetpack, MVVM, React Native, Retrofit, Dagger Hilt <br>
+        <strong>Tools & Libraries:</strong> Firebase, Gradle, Git, GitHub <br>
+        <strong>Mobile Development Expertise:</strong> Native Android, Cross-Platform (React Native), UI/UX Design, IoT Integration, Performance Optimization <br>
+        <strong>Soft Skills:</strong> Problem Solving, Team Leadership, Collaboration, Adaptability
+    </p>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+
+    <h3>Tekion India Pvt. Ltd. | Associate Software Engineer</h3>
+    <p>July 2023 - Present</p>
+    <ul>
+        <li>Developed key features for the Digital Signage Platform, improving customer engagement in the automotive industry.</li>
+        <li>Led the development of a self-checkout kiosk system, reducing service center wait times by 30%.</li>
+        <li>Designed and built a cross-platform mobile app using React Native, integrating IoT devices with real-time data synchronization.</li>
+    </ul>
+    <br/>
+    <br/>
+    <h3>Tekion India Pvt. Ltd. | Associate Software Engineering Intern</h3>
+    <p>January 2023 - June 2023</p>
+    <ul>
+        <li>Collaborated on the development of Android TV applications, focusing on feature enhancements and performance improvements.</li>
+        <li>Contributed to the creation of a cross-platform mobile app for IoT devices, delivering real-time data integration and seamless user experiences.</li>
+    </ul>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>
+        Feel free to reach out to me via email or connect with me on GitHub and LinkedIn for collaboration opportunities.
+    </p>
+    <p>Email: <a href="mailto:rajputak255@gmail.com">rajputak255@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/abhaykumar255" target="_blank">github.com/abhaykumar255</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/abhaykumar255/" target="_blank">linkedin.com/in/abhaykumar255</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Abhay Kumar | <a href="https://github.com/abhaykumar255" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/abhaykumar255/" target="_blank">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
